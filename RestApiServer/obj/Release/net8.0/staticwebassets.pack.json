@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\wwwroot\\assets\\index-Bqr75c4M.js",
+      "PackagePath": "staticwebassets\\assets\\index-Bqr75c4M.js"
+    },
+    {
+      "Id": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\wwwroot\\assets\\index-Cjcr9_pd.css",
+      "PackagePath": "staticwebassets\\assets\\index-Cjcr9_pd.css"
+    },
+    {
+      "Id": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\wwwroot\\vite.svg",
+      "PackagePath": "staticwebassets\\vite.svg"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.RestApiServer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.RestApiServer.props",
+      "PackagePath": "build\\RestApiServer.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RestApiServer.props",
+      "PackagePath": "buildMultiTargeting\\RestApiServer.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.RestApiServer.props",
+      "PackagePath": "buildTransitive\\RestApiServer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

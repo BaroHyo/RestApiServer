@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "w/ZYv6keGVTGjDONHUpZx9TYqJKJWqlUPM77dvWeHqw=",
+  "Source": "RestApiServer",
+  "BasePath": "_content/RestApiServer",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RestApiServer\\wwwroot",
+      "Source": "RestApiServer",
+      "ContentRoot": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\wwwroot\\",
+      "BasePath": "_content/RestApiServer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
