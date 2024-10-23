@@ -9,11 +9,11 @@ namespace RestApiServer.Services
 {
     public class UsuarioStore : IUserStore<ApplicationUser>, IUserPasswordStore<ApplicationUser>, IUserClaimStore<ApplicationUser> , IUserRoleStore<ApplicationUser>
     {
-        private readonly IUsuariosRepository usuariosRepository;
+        private readonly IAuthRepository  usuariosRepository;
 
         private readonly IDbConnection _dbConnection;
 
-        public UsuarioStore(IUsuariosRepository usuariosRepository, IDbConnection dbConnection)
+        public UsuarioStore(IAuthRepository  usuariosRepository, IDbConnection dbConnection)
         {
             this.usuariosRepository = usuariosRepository;
             _dbConnection = dbConnection;

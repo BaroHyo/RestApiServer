@@ -13,7 +13,8 @@ namespace RestApiServer.Services
             services.AddScoped<IPersonaRepository, PersonaRepository>();
             services.AddScoped<ITipoEstudioRepository, TipoEstudioRepository>();
             services.AddScoped<IErrorRepository, ErrorRepository>();
-            services.AddScoped<IUsuariosRepository, UsuariosRepository>();
+            services.AddScoped<IAuthRepository, AuthRepository>();
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
 
             return services;

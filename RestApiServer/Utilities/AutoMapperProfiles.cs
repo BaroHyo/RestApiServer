@@ -39,12 +39,19 @@ namespace RestApiServer.Utilities
             // Medico Mappings
             CreateMap<MedicoDTO, Medico>().ReverseMap();
             CreateMap<CrearMedicoDTO, Medico>();
+           
 
             // Medico role
             CreateMap<RoleDTO, IdentityRole<int>>().ReverseMap();
 
 
             CreateMap<CredencialesUsuarioDTO, CrearUsuarioDTO>().ReverseMap();
+
+            CreateMap<CreateUsuarioDTO, ApplicationUser>()
+                        .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.UserName))
+                        .ForMember(dest => dest.PasswordHash, opt => opt.Ignore()) // Ignorar el PasswordHash si necesitas manejarlo por separado
+                        .ForMember(dest => dest.Persona, opt => opt.Ignore()) // Ignorar si no quieres crear una instancia de Persona
+                        .ForMember(dest => dest.PersonaId, opt => opt.Ignore()); // Ignorar si no quieres asignar PersonaId
 
 
         }

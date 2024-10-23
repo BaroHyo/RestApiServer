@@ -1,19 +1,63 @@
 [
   {
-    "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_5",
-    "RelativePath": "",
-    "HttpMethod": "GET",
+    "ContainingType": "RestApiServer.Endpoints.AuthEndpoints",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "credencialesUsuarioDTO",
+        "Type": "RestApiServer.DTOs.Usuario.CredencialesUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
+      {
+        "Type": "RestApiServer.DTOs.Usuario.RespuestaAutenticacionDTO",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
       {
         "Type": "System.String",
         "MediaTypes": [
-          "text/plain"
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestApiServer.Endpoints.AuthEndpoints",
+    "Method": "Registrar",
+    "RelativePath": "api/auth/registrar",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "crearUsuarioDTO",
+        "Type": "RestApiServer.DTOs.Usuario.CrearUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestApiServer.DTOs.Usuario.RespuestaAutenticacionDTO",
+        "MediaTypes": [
+          "application/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Microsoft.AspNetCore.Identity.IdentityError, Microsoft.Extensions.Identity.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
       }
     ]
   },
@@ -1051,63 +1095,48 @@
   },
   {
     "ContainingType": "RestApiServer.Endpoints.UsuariosEndpoints",
-    "Method": "Login",
-    "RelativePath": "api/usuarios/login",
-    "HttpMethod": "POST",
+    "Method": "ObtenerTodos",
+    "RelativePath": "api/usuario/",
+    "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "credencialesUsuarioDTO",
-        "Type": "RestApiServer.DTOs.Usuario.CredencialesUsuarioDTO",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "RestApiServer.DTOs.Usuario.RespuestaAutenticacionDTO",
+        "Type": "System.Collections.Generic.List\u00601[[RestApiServer.DTOs.Usuario.UsuarioResponseDTO, RestApiServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json"
         ],
         "StatusCode": 200
-      },
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 400
       }
     ]
   },
   {
     "ContainingType": "RestApiServer.Endpoints.UsuariosEndpoints",
-    "Method": "Registrar",
-    "RelativePath": "api/usuarios/registrar",
-    "HttpMethod": "POST",
+    "Method": "ObtenerPorId",
+    "RelativePath": "api/usuario/{id:int}",
+    "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "crearUsuarioDTO",
-        "Type": "RestApiServer.DTOs.Usuario.CrearUsuarioDTO",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "RestApiServer.DTOs.Usuario.RespuestaAutenticacionDTO",
+        "Type": "RestApiServer.DTOs.Usuario.UsuarioResponseDTO",
         "MediaTypes": [
           "application/json"
         ],
         "StatusCode": 200
       },
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Microsoft.AspNetCore.Identity.IdentityError, Microsoft.Extensions.Identity.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 400
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
       }
     ]
   }

@@ -32,7 +32,7 @@ namespace RestApiServer.Endpoints
             [FromServices] RoleManager<IdentityRole<int>> roleManager,
             IConfiguration configuration,
             IMapper mapper,
-            IUsuariosRepository usuariosRepositor)
+            IAuthRepository  usuariosRepositor)
         {
             var usuario = new ApplicationUser
             {
@@ -93,7 +93,7 @@ namespace RestApiServer.Endpoints
             [FromServices] SignInManager<ApplicationUser> signInManager,
             [FromServices] UserManager<ApplicationUser> userManager,
             IConfiguration configuration,
-            IUsuariosRepository usuariosRepositor)
+            IAuthRepository  usuariosRepositor)
         {
             var usuario = await userManager.FindByNameAsync(credencialesUsuarioDTO.Cuenta);
 
@@ -138,7 +138,7 @@ namespace RestApiServer.Endpoints
                CredencialesUsuarioDTO credencialesUsuarioDTO,
                IConfiguration configuration,
                UserManager<ApplicationUser> userManager,
-               IUsuariosRepository usuariosRepository)
+               IAuthRepository  usuariosRepository)
         {
             // Buscar el usuario una sola vez
             var usuario = await userManager.FindByNameAsync(credencialesUsuarioDTO.Cuenta);

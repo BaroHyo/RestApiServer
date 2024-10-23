@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|solutionrelative:restapiserver\\endpoints\\usuariosendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|c:\\users\\boram\\onedrive\\escritorio\\donet\\restapiserver\\restapiserver\\services\\usuariostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|solutionrelative:restapiserver\\services\\usuariostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|c:\\users\\boram\\onedrive\\escritorio\\donet\\restapiserver\\restapiserver\\endpoints\\authendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|solutionrelative:restapiserver\\endpoints\\authendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|c:\\users\\boram\\onedrive\\escritorio\\donet\\restapiserver\\restapiserver\\dtos\\usuario\\respuestaautenticaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|solutionrelative:restapiserver\\dtos\\usuario\\respuestaautenticaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|c:\\users\\boram\\onedrive\\escritorio\\donet\\restapiserver\\restapiserver\\dtos\\usuario\\createusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|solutionrelative:restapiserver\\dtos\\usuario\\createusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|c:\\users\\boram\\onedrive\\escritorio\\donet\\restapiserver\\restapiserver\\repository\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|solutionrelative:restapiserver\\repository\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|c:\\users\\boram\\onedrive\\escritorio\\donet\\restapiserver\\restapiserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|solutionrelative:restapiserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,31 +26,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RespuestaAutenticacionDTO.cs",
-              "DocumentMoniker": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\DTOs\\Usuario\\RespuestaAutenticacionDTO.cs",
-              "RelativeDocumentMoniker": "RestApiServer\\DTOs\\Usuario\\RespuestaAutenticacionDTO.cs",
-              "ToolTip": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\DTOs\\Usuario\\RespuestaAutenticacionDTO.cs",
-              "RelativeToolTip": "RestApiServer\\DTOs\\Usuario\\RespuestaAutenticacionDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Program.cs",
+              "RelativeDocumentMoniker": "RestApiServer\\Program.cs",
+              "ToolTip": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Program.cs",
+              "RelativeToolTip": "RestApiServer\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAIcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T04:45:53.985Z"
+              "WhenOpened": "2024-10-23T04:20:06.961Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\DTOs\\Usuario\\CreateUsuarioDTO.cs",
+              "RelativeDocumentMoniker": "RestApiServer\\DTOs\\Usuario\\CreateUsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\DTOs\\Usuario\\CreateUsuarioDTO.cs",
+              "RelativeToolTip": "RestApiServer\\DTOs\\Usuario\\CreateUsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:30:04.557Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsuarioStore.cs",
-              "DocumentMoniker": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Services\\UsuarioStore.cs",
-              "RelativeDocumentMoniker": "RestApiServer\\Services\\UsuarioStore.cs",
-              "ToolTip": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Services\\UsuarioStore.cs",
-              "RelativeToolTip": "RestApiServer\\Services\\UsuarioStore.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAIwIQAAAAJAAAAAAAAAA==",
+              "Title": "AuthEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Endpoints\\AuthEndpoints.cs",
+              "RelativeDocumentMoniker": "RestApiServer\\Endpoints\\AuthEndpoints.cs",
+              "ToolTip": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Endpoints\\AuthEndpoints.cs",
+              "RelativeToolTip": "RestApiServer\\Endpoints\\AuthEndpoints.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowE8AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T04:36:20.179Z"
+              "WhenOpened": "2024-10-23T04:29:24.198Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,22 +76,10 @@
               "RelativeDocumentMoniker": "RestApiServer\\Endpoints\\UsuariosEndpoints.cs",
               "ToolTip": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Endpoints\\UsuariosEndpoints.cs",
               "RelativeToolTip": "RestApiServer\\Endpoints\\UsuariosEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwF4AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T04:33:50.792Z",
+              "WhenOpened": "2024-10-23T03:07:43.575Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuariosRepository.cs",
-              "DocumentMoniker": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Repository\\UsuariosRepository.cs",
-              "RelativeDocumentMoniker": "RestApiServer\\Repository\\UsuariosRepository.cs",
-              "ToolTip": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Repository\\UsuariosRepository.cs",
-              "RelativeToolTip": "RestApiServer\\Repository\\UsuariosRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T04:18:02.599Z"
             }
           ]
         }

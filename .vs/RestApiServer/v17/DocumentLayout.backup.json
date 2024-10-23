@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|c:\\users\\boram\\onedrive\\escritorio\\donet\\restapiserver\\restapiserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|solutionrelative:restapiserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|c:\\users\\boram\\onedrive\\escritorio\\donet\\restapiserver\\restapiserver\\endpoints\\usuariosendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|solutionrelative:restapiserver\\endpoints\\usuariosendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|c:\\users\\boram\\onedrive\\escritorio\\donet\\restapiserver\\restapiserver\\services\\usuariostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|solutionrelative:restapiserver\\services\\usuariostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|c:\\users\\boram\\onedrive\\escritorio\\donet\\restapiserver\\restapiserver\\dtos\\usuario\\respuestaautenticaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|solutionrelative:restapiserver\\dtos\\usuario\\respuestaautenticaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|c:\\users\\boram\\onedrive\\escritorio\\donet\\restapiserver\\restapiserver\\repository\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|solutionrelative:restapiserver\\repository\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|c:\\users\\boram\\onedrive\\escritorio\\donet\\restapiserver\\restapiserver\\endpoints\\categoriadetendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02989891-24A1-428F-9F98-D2DD28BB3EAE}|RestApiServer\\RestApiServer.csproj|solutionrelative:restapiserver\\endpoints\\categoriadetendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RespuestaAutenticacionDTO.cs",
-              "DocumentMoniker": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\DTOs\\Usuario\\RespuestaAutenticacionDTO.cs",
-              "RelativeDocumentMoniker": "RestApiServer\\DTOs\\Usuario\\RespuestaAutenticacionDTO.cs",
-              "ToolTip": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\DTOs\\Usuario\\RespuestaAutenticacionDTO.cs",
-              "RelativeToolTip": "RestApiServer\\DTOs\\Usuario\\RespuestaAutenticacionDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Program.cs",
+              "RelativeDocumentMoniker": "RestApiServer\\Program.cs",
+              "ToolTip": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Program.cs",
+              "RelativeToolTip": "RestApiServer\\Program.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAIcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T04:45:53.985Z",
+              "WhenOpened": "2024-10-23T03:10:38.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaDetEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Endpoints\\CategoriaDetEndpoints.cs",
+              "RelativeDocumentMoniker": "RestApiServer\\Endpoints\\CategoriaDetEndpoints.cs",
+              "ToolTip": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Endpoints\\CategoriaDetEndpoints.cs",
+              "RelativeToolTip": "RestApiServer\\Endpoints\\CategoriaDetEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:11:14.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsuarioStore.cs",
-              "DocumentMoniker": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Services\\UsuarioStore.cs",
-              "RelativeDocumentMoniker": "RestApiServer\\Services\\UsuarioStore.cs",
-              "ToolTip": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Services\\UsuarioStore.cs",
-              "RelativeToolTip": "RestApiServer\\Services\\UsuarioStore.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAIwIQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T04:36:20.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "UsuariosEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Endpoints\\UsuariosEndpoints.cs",
               "RelativeDocumentMoniker": "RestApiServer\\Endpoints\\UsuariosEndpoints.cs",
               "ToolTip": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Endpoints\\UsuariosEndpoints.cs",
               "RelativeToolTip": "RestApiServer\\Endpoints\\UsuariosEndpoints.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAWwKEAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T04:33:50.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuariosRepository.cs",
-              "DocumentMoniker": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Repository\\UsuariosRepository.cs",
-              "RelativeDocumentMoniker": "RestApiServer\\Repository\\UsuariosRepository.cs",
-              "ToolTip": "C:\\Users\\boram\\OneDrive\\Escritorio\\donet\\RestApiServer\\RestApiServer\\Repository\\UsuariosRepository.cs",
-              "RelativeToolTip": "RestApiServer\\Repository\\UsuariosRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T04:18:02.599Z",
+              "WhenOpened": "2024-10-23T03:07:43.575Z",
               "EditorCaption": ""
             }
           ]

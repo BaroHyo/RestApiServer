@@ -8,4 +8,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <History>True|2024-10-20T23:56:16.3525677Z||;True|2024-10-20T19:32:00.9464133-04:00||;True|2024-10-20T19:18:46.3091877-04:00||;True|2024-10-20T19:09:28.6796865-04:00||;True|2024-10-20T18:40:14.6809964-04:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="DTOs/Usuario/UsuarioDTO.cs">
+      <publishTime>10/22/2024 00:26:43</publishTime>
+    </File>
+  </ItemGroup>
 </Project>

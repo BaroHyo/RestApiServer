@@ -124,7 +124,6 @@ app.UseCors();
 app.UseOutputCache();
 app.UseAuthorization();
 
-app.MapGet("/", () => "¡Hola, mundo!");
 // Define endpoints
 app.MapGroup("/api/categorias").MapCategorias(); //.RequireAuthorization();
 app.MapGroup("/api/categoria-detalle").MapCategoriasDet();
@@ -134,6 +133,7 @@ app.MapGroup("/api/persona").MapPersona();
 app.MapGroup("/api/medico").MapMedico();
 app.MapGroup("/api/auth").MapAuth();
 app.MapGroup("/api/rol").MapRol();
+app.MapGroup("/api/usuario").MapUsuario();
 
 // Run the app
 app.Run();

@@ -7,22 +7,22 @@ using System.Security.Claims;
 
 namespace RestApiServer.Repository
 {
-    public interface IUsuariosRepository
+    public interface IAuthRepository
     {
         Task AsignarClaims(ApplicationUser user, IEnumerable<Claim> claims);
         Task<int> Crear(ApplicationUser usuario);
         Task<ApplicationUser?> FindByIdAsync(string userId);
         Task<ApplicationUser?> FindByNameAsync(string normalizedUserName);
+        Task<UsuarioDTO?> FindUsuarioAsync(int userId);
         Task<IList<Claim>> GetClaimsAsync(ApplicationUser user);
         Task RemoverClaims(ApplicationUser user, IEnumerable<Claim> claims);
-        Task<UsuarioDTO?> FindUsuarioAsync(int userId);
     }
 
-    public class UsuariosRepository : IUsuariosRepository
+    public class AuthRepository : IAuthRepository
     {
         private readonly IDbConnection _connection;
 
-        public UsuariosRepository(IDbConnection connection)
+        public AuthRepository(IDbConnection connection)
         {
             _connection = connection;
         }
